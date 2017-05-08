@@ -1,3 +1,30 @@
+body {
+  background: url("https://thetravelcapsule.com/wp-content/uploads/2015/05/cappadocia.jpg")no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.container {
+  margin-top: 5%;
+  background-color: white;
+  border-radius: 2%;
+  padding: 2%;
+}
+
+#destinations {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+#destinations:hover {
+  text-decoration: underline;
+}
+
+label {
+  font-size: 1.4em;
+}
+
 input.form-control, select#timeOfYear {
   margin: 2%;
 }
