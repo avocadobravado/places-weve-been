@@ -41,7 +41,7 @@ $(function() {
     $("input#landmark4").val("");
     $("textarea#notes").val("");
 
-    $("#destinations").last().click(function() {
+    $("#destinations li").last().click(function() {
       $("#showDestination").show();
       $("#showDestination h2").text(newDestination.place);
       $(".place").text(newDestination.place);

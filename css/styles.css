@@ -12,12 +12,12 @@ body {
   padding: 2%;
 }
 
-#destinations {
+#destinations li {
   cursor: pointer;
   color: #0088cc;
 }
 
-#destinations:hover {
+#destinations li:hover {
   text-decoration: underline;
 }
 
