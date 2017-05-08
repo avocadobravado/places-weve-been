@@ -1,0 +1,10 @@
+input.form-control, select#timeOfYear {
+  margin: 2%;
+}
+textarea.form-control {
+  margin-left: 2%;
+}
+
+#showDestination {
+  display: none;
+}
